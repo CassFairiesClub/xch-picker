@@ -1,7 +1,7 @@
 # XCH Picker by Cass
 [https://cassfairiesclub.github.io/xch-picker/](https://cassfairiesclub.github.io/xch-picker/)
 
-The XCH Picker takes chia blockchain block header hashes first 12 hex characters and converts it to an integer. After sample rejection to make sure we don't introduce a bias, we then modulo that integer with a max range number.
+The XCH Picker takes chia blockchain block header hashes first 12 hex characters and converts them to an integer. After sample rejection to make sure we don't introduce a bias, we then modulo that integer with a max range number.
 
 I've seen horrible ways of doing draws to choose winners lately on the timeline, the XCH picker is a tool to provably make a draw :
   1.  publish the potential winners list and announce a block in advance, a block that have not been farmed yet (unkown header_hash).
