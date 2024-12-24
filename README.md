@@ -1,5 +1,5 @@
 # XCH Picker by Cass
-[[xch_picker](https://cassfairiesclub.github.io/xch-picker/)](https://cassfairiesclub.github.io/xch-picker/)
+[https://cassfairiesclub.github.io/xch-picker/](https://cassfairiesclub.github.io/xch-picker/)
 
 The XCH Picker takes chia blockchain block header hashes first 12 hex characters and converts it to an integer. After sample rejection to make sure we don't introduce a bias, we then modulo that integer with a max range number.
 
