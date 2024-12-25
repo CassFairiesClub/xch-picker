@@ -41,7 +41,8 @@
     </div>
 
     <div class="item">
-        <p>tip : xch1mxuzqqte2kgu85he6jv8k52qcpynkfz9na4v69203y54uejgk3rsh6d2yr</p>
+        <a href="https://twitter.com/xchpicker?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @xchpicker</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
     </div>
 </div>
 <script type="module">
@@ -84,8 +85,9 @@
         const rand = hash2rand(header_hash, _range);
         
         const link = "<a href=\"https://www.spacescan.io/block/" + _height + "\">" + _height + "</a>";
-        console.log(link);
-        const payload = link + " - " + header_hash.substring(0,14) + "... - " + rand ;
+        const tweet = "<a href=\"https://twitter.com/intent/tweet?text=@xchpicker%20draw%0a%0aBlock:%20" + _height + "%0aRange:%20" + _range + "%0aResult:%20" + rand + "\">" + rand + "</a>";
+        console.log(tweet);
+        const payload = link + " - " + header_hash.substring(0,14) + "... - " + tweet;
         document.getElementById('par0').innerHTML = payload;
     };
 
